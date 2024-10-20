@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    background-image: url('oppa.jpg');
+    background-size: contain;
+}
+
+.id-card {
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 2px solid #007bff;
+}
+
+.profile-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.id-card h2 {
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+.id-card p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
